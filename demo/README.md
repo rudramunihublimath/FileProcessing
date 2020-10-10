@@ -3,3 +3,7 @@
    JDBC URL : jdbc:h2:mem:testDB
 - Below samples/test cases are tested
     - operation :  
+    1.
+    GET /ReadFile       >>  Give input as file name. EX. C:\Users\Rudra\Desktop\logfile.txt
+    2. 
+    GET /findallEvents  >>  Display all records from inmemory DB. 
