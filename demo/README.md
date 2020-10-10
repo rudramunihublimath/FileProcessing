@@ -7,3 +7,4 @@
 -                                   
     2) GET /findallEvents  >>  Display all records from inmemory DB. 
 -    
+- Input file (logfile.txt) is placed in demo folder. 
