@@ -1,10 +1,13 @@
-- Swagger is used  URL  - http://localhost:8080/swagger-ui.html
-- H2 Database is used  :  http://localhost:8080/h2-console/ 
-   JDBC URL : jdbc:h2:mem:testDB
-- Below samples/test cases are tested
-- operation :      
+STEPS to RUN :
+- Run given jar :
+  java -jar "demo-0.0.1-SNAPSHOT.jar"
+- Open Swagger URL  - http://localhost:8080/swagger-ui.html
+- Open H2 Database URL  -  http://localhost:8080/h2-console/ 
+   - JDBC URL : jdbc:h2:mem:testDB
+   - Query to check records from table : SELECT * FROM EVENT;
+- operation created are :      
     1) GET /ReadFile       >>  Give input as file name. EX. C:\Users\Rudra\Desktop\logfile.txt    
 -                                   
     2) GET /findallEvents  >>  Display all records from inmemory DB. 
--    
+   
 - Input file (logfile.txt) is placed in demo folder. 
